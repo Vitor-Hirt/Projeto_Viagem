@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="Expensivy.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header-content">
+        <section class="section-content-title">
+        <h1>International Airsont Expensivy</h1>
+        </section>
+    </header>
+    <main id="main-content">
+    <section class="section-content-form">
+        <form class="form-content" action="POST">
+            <label for="Nome">
+               <p>Nome:</p> <input type="text" nome="Nome" id="Nome" placeholder="Digite seu nome completo" required="Required">
+            </label>
+            <label for="E-mail">
+               <p>E-mail:</p> <input type="email" nome="E-mail" id="E-mail" placeholder="Digite o seu e-mail" required="Required">
+            </label>
+            <label for="DDD">
+                <p>Telefone:</p> <input type="tel" nome="Telefone" id="DDD" placeholder="DDD" maxlength="2" required="Required">
+            </label>
+            <label for="Telefone">
+                <input type="phone" nome="tel" id="Telefone" placeholder="Digite seu número de telefone" maxlength="11" required="Required">
+            </label>
+            <label for="Senha">
+               <p>Senha:</p> <input type="password" nome="Senha" id="Senha" placeholder="Digite sua senha" required="Required">
+            </label>
+            <label for="Confirme">
+            <p>Confirmar:</p> <input type="password" nome="Confirme" id="Confirme" placeholder="Digite sua senha novamente" required="Required">
+            </label>
+            <p><input class="button" type="button" value="Cadastrar" onclick="cadastrar()"></p>
+            <a href="Formulario_cadastro.html"><p><strong>Ja tenho cadastro</strong></p></a>
+        </form>
+    </section>
+    </main>
+
+</body>
+</html>

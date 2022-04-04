@@ -1,0 +1,88 @@
+html{
+    height: 100%;
+}
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+width: 50%;
+margin: auto;
+background-image: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, rgba(53,92,125,1) 88.8% );
+background-repeat: no-repeat;
+background-position: right;
+background-size: 100%;
+}
+
+#main-content{
+    background-color: rgba(0, 0, 0, 0.062);
+    border-radius: 150px 10px 150px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.637);
+    
+}
+
+.section-content-title{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 150px 10px 150px;
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+}
+
+.section-content-form{
+    background-image: url(../CSSF/Avião.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 68%;
+    padding: 100px;
+    border-radius: 150px 10px 150px;
+}
+
+.form-content{
+    width: 50%;
+    background-color: black;
+    background-image: url(../CSSF/Degrade.jpg);
+    padding: 70px;
+    color: white;
+    border-radius: 150px 10px 150px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.705);
+}
+
+label #DDD{
+    width: 8%;
+}
+
+label #Telefone{
+    width: 50%;
+}
+
+.button{
+    cursor: pointer;
+    color: white;
+}
+
+label{
+    text-shadow: 5px 5px 10px white;
+}
+
+.form-content input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+    background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
